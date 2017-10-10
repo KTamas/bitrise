@@ -193,6 +193,10 @@ var (
 					Name:  MinimalModeKey,
 					Usage: "Print only workflow summary.",
 				},
+				cli.BoolFlag{
+					Name:  WorkFlowIDOnlyKey,
+					Usage: "Print only workflow id.",
+				},
 			},
 		},
 		{
